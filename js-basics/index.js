@@ -1,6 +1,6 @@
-let person = {
-    name: 'Mosh', age: 30
-};
+function power(base, ez){
+    console.log(base ** ez);
+}
 
-
-console.log(person)
+power(2, 8);
+power(2, 10000000000);
